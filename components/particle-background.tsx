@@ -45,10 +45,10 @@ export default function ParticleBackground() {
         },
         particles: {
           color: {
-            value: ["#8B5CF6", "#EC4899"],
+          value: ["#8B5CF6", "#EC4899"], // Purple to Pink
           },
           links: {
-            color: "#a855f7",
+            color: "#22c55e", // Mid green
             distance: 150,
             enable: true,
             opacity: 0.3,

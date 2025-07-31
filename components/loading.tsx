@@ -29,7 +29,7 @@ export default function Loading() {
       <div className="w-64 mb-8">
         <div className="h-2 w-full bg-gray-800 rounded-full overflow-hidden">
           <motion.div
-            className="h-full bg-gradient-to-r from-purple-500 to-pink-500"
+            className="h-full bg-gradient-to-r from-green-500 to-orange-500"
             initial={{ width: 0 }}
             animate={{ width: `${progress}%` }}
             transition={{ duration: 0.1 }}
@@ -39,7 +39,7 @@ export default function Loading() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent"
+            className="text-2xl font-bold bg-gradient-to-r from-green-400 to-orange-400 bg-clip-text text-transparent"
           >
             {progress}%
           </motion.div>
