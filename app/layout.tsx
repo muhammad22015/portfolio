@@ -3,9 +3,9 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Aakash Singh Rajput - Blockchain Developer & Full Stack Engineer",
+  title: "Portofolio Muhammad Wildan Kamil",
   description:
-    "Portfolio of Aakash Singh Rajput, a Blockchain Developer and Full Stack Engineer specializing in Web3 technologies.",
+    "Portfolio of Muhammad Wildan Kamil, a Full Stack Developer specializing in Web3 technologies.",
   generator: "Next.js",
 }
 
