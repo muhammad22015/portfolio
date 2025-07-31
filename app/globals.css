@@ -13,24 +13,24 @@
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
+    --primary: 142 72% 42%; /* hijau */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 24 94% 50%; /* oranye */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 142 20% 20%;
+    --muted-foreground: 142 20% 70%;
 
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 36 100% 55%; /* kuning-oranye */
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
+    --border: 142 20% 25%;
+    --input: 142 20% 25%;
+    --ring: 24 94% 50%;
   }
 }
 
@@ -53,18 +53,18 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #8b5cf6, #ec4899);
+  background: linear-gradient(to bottom, #16a34a, #f97316); /* hijau → oranye */
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #7c3aed, #db2777);
+  background: linear-gradient(to bottom, #15803d, #ea580c); /* hijau gelap → oranye gelap */
 }
 
 /* For Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #8b5cf6 #1a1a1a;
+  scrollbar-color: #16a34a #1a1a1a; /* hijau scrollbar */
 }
 
 @keyframes glitch {
@@ -111,14 +111,14 @@
 
 .glitch::before {
   left: 2px;
-  text-shadow: -2px 0 #8b5cf6;
+  text-shadow: -2px 0 #16a34a; /* hijau */
   clip: rect(24px, 550px, 90px, 0);
   animation: glitch-anim 2s infinite linear alternate-reverse;
 }
 
 .glitch::after {
   left: -2px;
-  text-shadow: -2px 0 #ec4899;
+  text-shadow: -2px 0 #f97316; /* oranye */
   clip: rect(85px, 550px, 140px, 0);
   animation: glitch-anim 2s infinite linear alternate-reverse;
 }
